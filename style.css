@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dddddd;
+}
+
+.container {
+  width: 900px;
+  min-height: 600px;
+  margin: 0 auto;
+}
+
+.bar {
+  fill: #1b262c;
+}
+
+.bar:hover {
+  fill: #dfd3c3;
+}
+
+.chart {
+  background-color: #dfd3c3;
+  margin: 5rem auto;
+  color: #1b262c;
+  box-shadow: 2px 2px 20px;
+}
+
+#tooltip {
+   background-color: #3a4750;
+   color: white;
+   border: 1px solid #dfd3c3; 
+   border-radius: 5px;
+   padding: .5rem;
+   font-size: 1.15rem;
+   box-shadow: 2px 2px 8px;
+}
+
+#tooltip p{
+  text-align: center;
+  padding: 0.15rem;
+}
+
+.title {
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #1b262c;
+}
