@@ -1,11 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
   background-color: #dddddd;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -26,31 +26,38 @@ body {
   background-color: #dfd3c3;
   margin: 5rem auto;
   color: #1b262c;
+  padding-bottom: 1.5rem;
   box-shadow: 2px 2px 20px;
 }
 
 #tooltip {
-   background-color: #3a4750;
-   color: white;
-   border: 1px solid #dfd3c3; 
-   border-radius: 5px;
-   padding: .5rem;
-   font-size: 1.15rem;
-   box-shadow: 2px 2px 8px;
+  background-color: #3a4750;
+  color: white;
+  border: 1px solid #dfd3c3;
+  border-radius: 5px;
+  padding: .5rem;
+  font-size: 1.15rem;
+  box-shadow: 2px 2px 8px;
 }
 
-#tooltip p{
+#tooltip p {
   text-align: center;
   padding: 0.15rem;
 }
 
 .title {
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
   padding: 1.5rem;
   font-size: 2.5rem;
 }
 
+.info {
+  padding: 2rem;
+}
+
 .footer {
+  font-family: 'Open Sans', sans-serif;
   position: relative;
   bottom: 0;
   left: 0;

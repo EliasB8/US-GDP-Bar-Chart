@@ -1,3 +1,4 @@
+// Date for footer
 const date = new Date().getFullYear();
 document.getElementById("date").textContent = date;
 
@@ -14,8 +15,8 @@ const renderBar = (dataset) => {
     .text('Gross Domestic Product (GDP)');
 
   svg.append('text')
-    .attr('x', w / 2 + 45)
-    .attr('y', h + 50)
+    .attr('x', w / 2 + 5)
+    .attr('y', h + 55)
     .text('More Information: http://www.bea.gov/national/pdf/nipaguid.pdf')
     .attr('class', 'info');
 
